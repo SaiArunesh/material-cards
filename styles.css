@@ -13,9 +13,11 @@ body {
   margin: 1rem;
   border: 0px;
   background-color: rgb(37, 89, 134);
+  display: flex;
+  justify-content: space-around;
 }
 
-.card {
+.card-basic {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -67,9 +69,6 @@ body {
   align-items: center;
 }
 
-.card-footer-buttons{
-}
-
 .card-button {
   text-transform: uppercase;
   border: 0;
@@ -107,4 +106,20 @@ body {
 .mdc-icon-button__icon:hover {
   background-color: #e5e4e2;
   border-radius: 50%;
+}
+
+.card-basic-text-over-media{
+  height: 312px;
+}
+
+.card-text-over-media {
+  margin-top: -66px;
+}
+
+.card-image-text-over-media{
+  height: 197px;
+}
+
+.white-text {
+  color: white;
 }
