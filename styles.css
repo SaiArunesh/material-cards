@@ -10,46 +10,44 @@ html {
 }
 
 body {
+  height: 100vh;
   margin: 1rem;
-  border: 0px;
+  border: 0rem;
   background-color: rgb(37, 89, 134);
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
+
+/* Basic Card*/
 
 .card-basic {
   display: flex;
   flex-direction: column;
   background-color: white;
   border-radius: 0.5rem;
-  width: 350px;
-  height: 382px;
+  width: 35rem;
+  height: 38.2rem;
+  margin: 2rem;
 }
 
 .card-image {
-  height: 50%;
   border-radius: 0.5rem 0.5rem 0rem 0rem;
-}
-
-.card-content {
-  height: 50%;
-  display: flex;
-  flex-direction: column;
+  height: 19.2rem;
 }
 
 .card-header {
   display: flex;
   flex-direction: column;
-  flex-basis: 66.6666%;
   font-size: 1.4rem;
 }
 
 .card-title {
-  padding: 1.6rem;
+  padding: 1.6rem 0rem 0.8rem 1.6rem;
 }
 
 .card-title-header {
-  font-weight: bold;
+  font-weight: 200;
   font-size: 2rem;
 }
 
@@ -58,14 +56,14 @@ body {
 }
 
 .card-desc {
-  padding: 0rem 1.6rem 0.8rem 1.6rem;
+  padding: 0.8rem 1.6rem 0.8rem 1.6rem;
   color: gray;
+  font-size: 1.4rem;
 }
 
 .card-footer {
   padding: 0rem 1.6rem;
   display: flex;
-  flex-basis: 33.33333%;
   align-items: center;
 }
 
@@ -75,18 +73,19 @@ body {
   padding: 1rem 0.5rem;
   color: var(--primary-color);
   background-color: white;
-  font-weight: bold;
+  font-weight: 600;
   letter-spacing: 0.2rem;
   border-radius: 1rem;
+  font-size: 1.4rem;
 }
 
 .card-button:hover {
-  background-color: #e5e4e2;
+  background-color: rgba(98, 0, 238, 0.05);
   cursor: pointer;
 }
 
 .card-button:not(:first-child) {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .card-footer-icons {
@@ -98,28 +97,40 @@ body {
 
 .mdc-icon-button__icon {
   border: 0;
-  width: 44px;
-  height: 44px;
+  width: 4.4rem;
+  height: 4.4rem;
   background-color: white;
 }
 
 .mdc-icon-button__icon:hover {
-  background-color: #e5e4e2;
+  background-color: #f8f4ec;
   border-radius: 50%;
 }
 
-.card-basic-text-over-media{
-  height: 312px;
+/* Card Basic Text over Media*/
+.card-basic-text-over-media {
+  height: 31.2rem;
 }
 
-.card-text-over-media {
-  margin-top: -66px;
+.card-pull-text-over-media {
+  margin-top: -6.6rem;
 }
 
-.card-image-text-over-media{
-  height: 197px;
-}
-
-.white-text {
+.card-title > .card-white-text {
   color: white;
+}
+
+/* Card Basic with Header*/
+
+.card-basic-with-header > .card-header {
+  order: -1;
+}
+.card-basic-with-header > .card-image {
+  border-radius: initial;
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
 }
