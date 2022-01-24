@@ -6,14 +6,13 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: Roboto, sans-serif;
-  outline-color: red;
 }
 
 body {
   height: 100vh;
   margin: 1rem;
   border: 0rem;
-  background-color: rgb(37, 89, 134);
+  background-color: #1f1f1f;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -62,6 +61,7 @@ body {
 }
 
 .card-footer {
+  margin-top: 0.6rem;
   padding: 0rem 1.6rem;
   display: flex;
   align-items: center;
@@ -128,6 +128,29 @@ body {
 .card-basic-with-header > .card-image {
   border-radius: initial;
 }
+
+/* Card without Description*/
+.card-small {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 35rem;
+  height: 16.2rem;
+  margin: 2rem;
+}
+
+.card-small > .card-header{
+  flex-direction: row;
+  width: 100%;
+  min-height: 11rem;
+}
+
+.card-small-image {
+  max-width: 11rem;
+}
+
+
 
 @media only screen and (max-width: 500px) {
   html {
