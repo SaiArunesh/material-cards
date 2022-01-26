@@ -1,223 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!--Basic Card-->
-    <div class="card-basic">
-      <img
-        src="./assets/images/Tanjiro.jpg"
-        class="card-image"
-        alt="Tanjiro Kamado Pic"
-      />
-      <div class="card-header">
-        <div class="card-title">
-          <div class="card-title-header">Tanjiro Kamado</div>
-          <div class="card-title-author">from Demon Slayer</div>
-        </div>
-      </div>
-      <div class="card-desc">
-        Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō) is the main
-        protagonist of Demon Slayer: Kimetsu no Yaiba.
-      </div>
 
-      <div class="card-footer">
-        <div class="card-footer-buttons">
-          <button class="card-button">Read</button>
-          <button class="card-button">Bookmark</button>
-        </div>
-        <div class="card-footer-icons">
-          <button class="material-icons mdc-icon-button__icon">
-            favorite_border
-          </button>
-          <button class="material-icons mdc-icon-button__icon">share</button>
-          <button class="material-icons mdc-icon-button__icon">
-            more_vert
-          </button>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Component Library</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!--Basic Card-->
+  <div class="card-basic">
+    <img src="./assets/images/Tanjiro.jpg" class="card-image" alt="Tanjiro Kamado Pic" />
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-title-header">Tanjiro Kamado</div>
+        <div class="card-title-author">from Demon Slayer</div>
+      </div>
+    </div>
+    <div class="card-desc">
+      Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō) is the main
+      protagonist of Demon Slayer: Kimetsu no Yaiba.
+    </div>
+
+    <div class="card-footer">
+      <div class="card-footer-buttons">
+        <button class="card-button">Read</button>
+        <button class="card-button">Bookmark</button>
+      </div>
+      <div class="card-footer-icons">
+        <button class="material-icons mdc-icon-button__icon">
+          favorite_border
+        </button>
+        <button class="material-icons mdc-icon-button__icon">share</button>
+        <button class="material-icons mdc-icon-button__icon">
+          more_vert
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Basic Card with Text over Media-->
+  <div class="card-basic card-basic-text-over-media">
+    <img src="./assets/images/Tanjiro.jpg" class="card-image" alt="Tanjiro Kamado Pic" />
+
+    <div class="card-header card-pull-text-over-media">
+      <div class="card-title">
+        <div class="card-title-header card-white-text">Tanjiro Kamado</div>
+        <div class="card-title-author card-white-text">from Demon Slayer</div>
       </div>
     </div>
 
+    <div class="card-desc">
+      Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō) is the
+      main protagonist of Demon Slayer: Kimetsu no Yaiba.
+    </div>
 
-    <!--Basic Card with Text over Media-->
-    <div class="card-basic card-basic-text-over-media">
-      <img
-        src="./assets/images/Tanjiro.jpg"
-        class="card-image"
-        alt="Tanjiro Kamado Pic"
-      />
+    <div class="card-footer">
+      <div class="card-footer-buttons">
+        <button class="card-button">Read</button>
+        <button class="card-button">Bookmark</button>
+      </div>
+      <div class="card-footer-icons">
+        <button class="material-icons mdc-icon-button__icon">
+          favorite_border
+        </button>
+        <button class="material-icons mdc-icon-button__icon">share</button>
+        <button class="material-icons mdc-icon-button__icon">
+          more_vert
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
 
-      <div class="card-header card-pull-text-over-media">
-        <div class="card-title">
-          <div class="card-title-header card-white-text">Tanjiro Kamado</div>
-          <div class="card-title-author card-white-text">from Demon Slayer</div>
-        </div>
-        </div>  
-
-        <div class="card-desc">
-          Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō) is the
-          main protagonist of Demon Slayer: Kimetsu no Yaiba.
-        </div>
-
-        <div class="card-footer">
-          <div class="card-footer-buttons">
-            <button class="card-button">Read</button>
-            <button class="card-button">Bookmark</button>
-          </div>
-          <div class="card-footer-icons">
-            <button class="material-icons mdc-icon-button__icon">
-              favorite_border
-            </button>
-            <button class="material-icons mdc-icon-button__icon">share</button>
-            <button class="material-icons mdc-icon-button__icon">
-              more_vert
-            </button>
-          </div>
-        </div>
+  <!--Basic Card with Header-->
+  <div class="card-basic card-basic-with-header">
+    <img src="./assets/images/Tanjiro.jpg" class="card-image" alt="Tanjiro Kamado Pic" />
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-title-header">Tanjiro Kamado</div>
+        <div class="card-title-author">from Demon Slayer</div>
       </div>
     </div>
 
-    <!--Basic Card with Header-->
-    <div class="card-basic card-basic-with-header">
-      <img
-        src="./assets/images/Tanjiro.jpg"
-        class="card-image"
-        alt="Tanjiro Kamado Pic"
-      />
-      <div class="card-header">
-        <div class="card-title">
-          <div class="card-title-header">Tanjiro Kamado</div>
-          <div class="card-title-author">from Demon Slayer</div>
-        </div>
-        </div>
-
-        <div class="card-desc">
-          Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō) is the
-          main protagonist of Demon Slayer: Kimetsu no Yaiba.
-        </div>
-
-        <div class="card-footer">
-          <div class="card-footer-buttons">
-            <button class="card-button">Read</button>
-            <button class="card-button">Bookmark</button>
-          </div>
-          <div class="card-footer-icons">
-            <button class="material-icons mdc-icon-button__icon">
-              favorite_border
-            </button>
-            <button class="material-icons mdc-icon-button__icon">share</button>
-            <button class="material-icons mdc-icon-button__icon">
-              more_vert
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-
-    <!--Basic Card with Only Buttons-->
-    <div class="card-basic">
-      <img
-        src="./assets/images/Tanjiro.jpg"
-        class="card-image"
-        alt="Tanjiro Kamado Pic"
-      />
-      <div class="card-header">
-        <div class="card-title">
-          <div class="card-title-header">Tanjiro Kamado</div>
-          <div class="card-title-author">from Demon Slayer</div>
-        </div>
-        </div>
-        <div class="card-desc">
-          Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō) is the
-          main protagonist of Demon Slayer: Kimetsu no Yaiba.
-        </div>
-        <div class="card-footer">
-          <div class="card-footer-buttons">
-            <button class="card-button">Read</button>
-            <button class="card-button">Bookmark</button>
-          </div>
-        </div>
-      </div>
+    <div class="card-desc">
+      Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō) is the
+      main protagonist of Demon Slayer: Kimetsu no Yaiba.
     </div>
 
-    <!--Basic Card with Only Icons-->
-    <div class="card-basic">
-      <img
-        src="./assets/images/Tanjiro.jpg"
-        class="card-image"
-        alt="Tanjiro Kamado Pic"
-      />
-      <div class="card-header">
-        <div class="card-title">
-          <div class="card-title-header">Tanjiro Kamado</div>
-          <div class="card-title-author">from Demon Slayer</div>
-        </div>
-        </div>
-        <div class="card-desc">
-          Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō) is the
-          main protagonist of Demon Slayer: Kimetsu no Yaiba.
-        </div>
-        <div class="card-footer">
-          <div class="card-footer-icons">
-            <button class="material-icons mdc-icon-button__icon">
-              favorite_border
-            </button>
-            <button class="material-icons mdc-icon-button__icon">share</button>
-            <button class="material-icons mdc-icon-button__icon">
-              more_vert
-            </button>
-          </div>
-        </div>
+    <div class="card-footer">
+      <div class="card-footer-buttons">
+        <button class="card-button">Read</button>
+        <button class="card-button">Bookmark</button>
+      </div>
+      <div class="card-footer-icons">
+        <button class="material-icons mdc-icon-button__icon">
+          favorite_border
+        </button>
+        <button class="material-icons mdc-icon-button__icon">share</button>
+        <button class="material-icons mdc-icon-button__icon">
+          more_vert
+        </button>
       </div>
     </div>
+  </div>
+  </div>
 
-    <!--Card without Description-->
 
-    <div class="card-small">
-  
-      <div class="card-header">
-        <img
-        src="./assets/images/Tanjiro.jpg"
-        class="card-small-image"
-        alt="Tanjiro Kamado Pic"
-      />
-        <div class="card-title">
-          <div class="card-title-header">Tanjiro Kamado</div>
-          <div class="card-title-author">from Demon Slayer</div>
-        </div>
-        </div>
-        <div class="card-footer">
-          <div class="card-footer-buttons">
-            <button class="card-button">Read</button>
-            <button class="card-button">Bookmark</button>
-          </div>
-          <div class="card-footer-icons">
-            <button class="material-icons mdc-icon-button__icon">
-              favorite_border
-            </button>
-            <button class="material-icons mdc-icon-button__icon">share</button>
-            <button class="material-icons mdc-icon-button__icon">
-              more_vert
-            </button>
-          </div>
-        </div>
+  <!--Basic Card with Only Buttons-->
+  <div class="card-basic">
+    <img src="./assets/images/Tanjiro.jpg" class="card-image" alt="Tanjiro Kamado Pic" />
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-title-header">Tanjiro Kamado</div>
+        <div class="card-title-author">from Demon Slayer</div>
       </div>
     </div>
+    <div class="card-desc">
+      Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō) is the
+      main protagonist of Demon Slayer: Kimetsu no Yaiba.
+    </div>
+    <div class="card-footer">
+      <div class="card-footer-buttons">
+        <button class="card-button">Read</button>
+        <button class="card-button">Bookmark</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--Basic Card with Only Icons-->
+  <div class="card-basic">
+    <img src="./assets/images/Tanjiro.jpg" class="card-image" alt="Tanjiro Kamado Pic" />
+    <div class="card-header">
+      <div class="card-title">
+        <div class="card-title-header">Tanjiro Kamado</div>
+        <div class="card-title-author">from Demon Slayer</div>
+      </div>
+    </div>
+    <div class="card-desc">
+      Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō) is the
+      main protagonist of Demon Slayer: Kimetsu no Yaiba.
+    </div>
+    <div class="card-footer">
+      <div class="card-footer-icons">
+        <button class="material-icons mdc-icon-button__icon">
+          favorite_border
+        </button>
+        <button class="material-icons mdc-icon-button__icon">share</button>
+        <button class="material-icons mdc-icon-button__icon">
+          more_vert
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--Card without Description-->
+
+  <div class="card-small">
+
+    <div class="card-header">
+      <img src="./assets/images/Tanjiro.jpg" class="card-small-image" alt="Tanjiro Kamado Pic" />
+      <div class="card-title">
+        <div class="card-title-header">Tanjiro Kamado</div>
+        <div class="card-title-author">from Demon Slayer</div>
+      </div>
+    </div>
+    <div class="card-footer">
+      <div class="card-footer-buttons">
+        <button class="card-button">Read</button>
+        <button class="card-button">Bookmark</button>
+      </div>
+      <div class="card-footer-icons">
+        <button class="material-icons mdc-icon-button__icon">
+          favorite_border
+        </button>
+        <button class="material-icons mdc-icon-button__icon">share</button>
+        <button class="material-icons mdc-icon-button__icon">
+          more_vert
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
 
 
-  </body>
+</body>
+
 </html>
