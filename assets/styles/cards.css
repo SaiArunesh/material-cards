@@ -76,8 +76,9 @@
 }
 
 .card-icon {
-  width: 4.4rem;
-  height: 4.4rem;
+  width:4.4rem;
+  height:4.4rem;
+  font-size: 3rem;
   background-color: white;
 }
 
@@ -117,7 +118,7 @@
   flex-direction: column;
   background-color: white;
   border-radius: 0.5rem;
-  width: 35rem;
+  min-width: 35rem;
   height: 16.2rem;
   margin: 2rem;
 }
@@ -133,5 +134,5 @@
 }
 
 .card-small > .card-footer {
-  padding-top: 0.8rem;
+  padding-top: 0.6rem;
 }
