@@ -1,0 +1,51 @@
+.basic-chips {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.chips-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 1.4rem;
+  background-color: #48acf0;
+  color: white;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+}
+
+.chip-close-icon {
+  cursor: pointer;
+  background-color: #48acf0;
+  color: white;
+  width: 40%;
+  height: 40%;
+  opacity: 0.6;
+}
+.chip-close-icon:hover {
+  opacity: 1;
+}
+
+.chip-input-contatiner {
+  margin: auto;
+}
+
+.chip-input {
+  padding: 1rem;
+}
+
+.chip-input::placeholder {
+  opacity: 0.5;
+}
