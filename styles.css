@@ -1,32 +1,45 @@
 @import url("./assets/styles/cards.css");
+@import url("./assets/styles/chips.css");
 
 :root {
-    --primary-color: #6200ee;
+  --primary-color: #6200ee;
 }
 
 html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-    font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    min-height: 100vh;
-    background-image: linear-gradient(to top right, #1f1f1f, black);
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  min-height: 100vh;
+  background-image: linear-gradient(to top right,  black,#1f1f1f);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.card-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    min-height: fit-content;
+.card-container,
+.chip-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: fit-content;
+  width: 100%;
+}
+
+button {
+  border: 0;
 }
 
 @media only screen and (max-width: 500px) {
-    html {
-        font-size: 50%;
-    }
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  html {
+    font-size: 30%;
+  }
 }
