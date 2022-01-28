@@ -4,11 +4,10 @@
   width: 100%;
   padding: 2rem;
   border-radius: 1rem;
-  background-color: white;
+  background-color: #1f1f1f;
 }
 
 .chips-container {
-  background-color: white;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -44,8 +43,14 @@
 
 .chip-input {
   padding: 1rem;
+  background-color: #efefef;
+  border:0;
+  border-radius: 2rem;
+  font-weight: 700;
 }
 
 .chip-input::placeholder {
+  color: #48acf0;
   opacity: 0.5;
+  font-weight: 700;
 }
