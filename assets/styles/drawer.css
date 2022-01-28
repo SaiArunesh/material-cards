@@ -1,0 +1,46 @@
+.drawer {
+  background-color: white;
+  font-size: 1.4rem;
+  width: 20rem;
+  max-height: 24rem;
+  overflow-y: auto;
+}
+
+.drawer-header {
+  position: sticky;
+  top: 0;
+  letter-spacing: 0.1rem;
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.drawer-header .title {
+  font-size: 2rem;
+}
+
+.drawer-header .sub-text {
+  color: #808080;
+  font-weight: 100;
+}
+
+.drawer-menu {
+  padding: 0.5rem 1rem;
+}
+
+.drawer-menu .menu-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.drawer-menu .active {
+  background-color: #48acf0;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.drawer-icon {
+    font-size: 2.5rem;
+}
