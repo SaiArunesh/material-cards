@@ -9,18 +9,9 @@
 .drawer-header {
   position: sticky;
   top: 0;
-  letter-spacing: 0.1rem;
-  padding: 0.5rem 1rem;
-  border-bottom: 2px solid whitesmoke;
-}
-
-.drawer-header .title {
   font-size: 2rem;
-}
-
-.drawer-header .sub-text {
-  color: #808080;
-  font-weight: 100;
+  padding: 0.5rem 1rem;
+  background-color: #fafafa;
 }
 
 .drawer-menu {
@@ -42,5 +33,17 @@
 }
 
 .drawer-icon {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
+}
+
+.drawer-sub-text {
+  color: #808080;
+  font-weight: 100;
+  font-size: 1rem;
+  padding: 0.5rem 0rem;
+}
+
+.drawer-sub-text-seperator {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  margin-bottom: 0.5rem;
 }
