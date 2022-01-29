@@ -4,6 +4,7 @@
   max-width: 70rem;
   border-radius: 0.5rem;
   overflow-y: auto;
+  min-width: 60vw;
 }
 
 .header {
