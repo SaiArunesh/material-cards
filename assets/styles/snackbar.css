@@ -9,7 +9,7 @@
 }
 
 .snack-text {
-  max-width: 48rem;
+  max-width: 50vw;
   overflow: hidden;
   text-overflow: ellipsis;
 }
