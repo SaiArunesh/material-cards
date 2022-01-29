@@ -18,21 +18,21 @@
 }
 
 .sm-badge {
-  font-size: 0.5rem;
-  padding: 0.2rem;
-  min-width: 0.7rem;
-  min-height: 0.7rem;
-  top: -0.3rem;
-  right: -0.7rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+  top: -1.3rem;
+  right: -1.5rem;
 }
 
 .lg-badge {
-  font-size: 0.7rem;
-  padding: 0.2rem;
-  min-width: 1rem;
-  min-height: 1rem;
-  top: -0.5rem;
-  right: -1rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  min-width: 2rem;
+  min-height: 2rem;
+  top: -2rem;
+  right: -1.8rem;
 }
 
 .badge-left {
@@ -43,11 +43,15 @@
 .badge-icon {
   top: -0.2rem;
   right: 0rem;
+  font-size: 4rem;
 }
 
+.badge-icon + .sm-badge {
+  top: -1rem;
+  right: -0.5rem;
+}
 
-.badge-icon.sm-badge{
-    top: -0.1rem;
-    right: 0.3rem;
-  }
-
+.badge-icon + .lg-badge {
+  top: -1.5rem;
+  right: -1rem;
+}

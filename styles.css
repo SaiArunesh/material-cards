@@ -20,6 +20,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  font-size: 1.4rem;
 }
 
 .component-container {
@@ -36,15 +37,18 @@ button {
   background-color: rgba(0,0,0,0.4);
   color: white;
   border-radius: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.6rem;
+  padding:1rem;
 }
 
 ul {
   background-color: white;
+  max-width: 600px;
 }
 
 li {
   padding: 1rem;
+  width: 150%;
 }
 
 @media only screen and (max-width: 500px) {
