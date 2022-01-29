@@ -1,0 +1,64 @@
+.text-with-header {
+  background-color: white;
+  margin: 1rem;
+  max-width: 70rem;
+  border-radius: 0.5rem;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  background-color: #48acf0;
+  color: white;
+  gap: 1.5rem;
+}
+
+.header-icon {
+  cursor: pointer;
+  font-size: 2.4rem;
+}
+
+.header-right-icons {
+  display: flex;
+  margin-left: auto;
+  gap: 1rem;
+}
+
+.text-with-header > .text {
+  margin: 1rem;
+  font-size: 1.6rem;
+  max-height: 20rem;
+}
+
+.fixed-header {
+  position: sticky;
+  top: 0;
+}
+
+.corner-header {
+  position: sticky;
+  top: 0;
+  width: fit-content;
+  border-radius: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.corner-header .header-text {
+  display: none;
+}
+
+.corner-header .header-right-icons {
+  margin-left: initial;
+}
+
+.corner-header .header-icon:not(:first-child) {
+  display: none;
+}
+.prominent-header {
+  align-items: initial;
+}
+.prominent-header .header-text {
+  padding-top: 5rem;
+}
