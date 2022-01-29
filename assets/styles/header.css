@@ -39,8 +39,6 @@
 }
 
 .corner-header {
-  position: sticky;
-  top: 0;
   width: fit-content;
   border-radius: 0.5rem 0rem 0.5rem 0rem;
 }
@@ -56,9 +54,11 @@
 .corner-header .header-icon:not(:first-child) {
   display: none;
 }
+
 .prominent-header {
   align-items: initial;
 }
+
 .prominent-header .header-text {
   padding-top: 5rem;
 }
