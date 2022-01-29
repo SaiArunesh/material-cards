@@ -1,5 +1,8 @@
 @import url("./assets/styles/cards.css");
 @import url("./assets/styles/chips.css");
+@import url("./assets/styles/drawer.css");
+@import url("./assets/styles/header.css");
+
 
 :root {
   --primary-color: #6200ee;
@@ -19,13 +22,13 @@ body {
   flex-wrap: wrap;
 }
 
-.card-container,
-.chip-container {
+.component-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   min-height: fit-content;
   width: 100%;
+  margin:2rem;
 }
 
 button {
