@@ -1,0 +1,46 @@
+.snack-container {
+  position: fixed;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  bottom: 20px;
+}
+
+.snack-text {
+  max-width: 48rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.snack-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.snack-button-container > button {
+  background-color: inherit;
+  color: #ca3cff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
+}
+
+.snack-leading {
+  left: 20px;
+}
+
+.snack-stacked {
+  flex-direction: column;
+}
+
+.snack-stacked > .snack-button-container {
+  align-self: flex-end;
+}
+
+/* .snack-hide{
+    display: none;
+}
+ */
