@@ -3,9 +3,11 @@
 @import url("./assets/styles/drawer.css");
 @import url("./assets/styles/header.css");
 @import url("./assets/styles/badges.css");
+@import url("./assets/styles/snackbar.css");
 
 :root {
-  --primary-color: #6200ee;
+  --warning-color: #EF3E36;
+  --warning-color: #CA3CFF;
 }
 
 html {
@@ -34,11 +36,12 @@ body {
 
 button {
   border: 0;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(127,127,127);
   color: white;
   border-radius: 0.5rem;
   font-size: 1.6rem;
   padding:1rem;
+  cursor: pointer;
 }
 
 ul {
@@ -49,6 +52,10 @@ ul {
 li {
   padding: 1rem;
   width: 150%;
+}
+
+.hide{
+  display: none;
 }
 
 @media only screen and (max-width: 500px) {
